@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-bottom: 0 0 3.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+/* Download Botton */
+.download-botton {
+  margin: 5% 3% 5% 0;
+}
+
+/* title img */
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-size: 1.5 rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.feuture-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials h2 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 20%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+.pricing-discription {
+  color: #8f8f8f;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* Action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  color: black;
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+#footer p {
+  color: #8f8f8f;
+  padding: 5px auto 5px;
+}
